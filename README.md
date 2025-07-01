@@ -33,6 +33,7 @@ This repository contains all the necessary assets to reproduce our results, from
 │ ├── MI_selector.pkl # The SelectKBest object for MI feature selection.
 │ ├── MI_label_encoder.pkl # The LabelEncoder for MI classes.
 │ ├── MI_features.json # A list of the final selected feature names for the MI model.
+│ ├── requirements.txt # All required libraries to run the model.
 │ │
 │ ├── SSVEP_model.pkl # The trained LightGBM model for the SSVEP task.
 │ ├── SSVEP_scaler.pkl # The StandardScaler object for SSVEP features.
