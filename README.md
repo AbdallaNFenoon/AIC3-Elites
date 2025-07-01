@@ -17,34 +17,32 @@ The final, high-scoring model was built by engineering a comprehensive set of ti
 This repository contains all the necessary assets to reproduce our results, from raw data processing to final model inference.
 
 
-.
-├── AIC3-Notebook.ipynb # The primary Jupyter Notebook for exploration and development.
-├── Configs.txt # A text file version of the configuration script.
-├── Kaggle_Score_Screenshot.png # Screenshot of our final leaderboard score (0.71).
-├── Model-pipeline.py # The main, consolidated script to run the full training pipeline.
-├── predict.py # A lightweight script to load saved models and predict on new data.
-├── Note_on_Submission(please read).txt # Important notes regarding the different submission files.
-├── requirements.txt # A list of all Python dependencies required to run the code.
-├── System Description Paper.pdf # The detailed technical paper summarizing our methodology.
+<details> <summary>📁 Project Structure</summary>
+├── AIC3-Notebook.ipynb              # Primary Jupyter Notebook for exploration and development
+├── Configs.txt                      # Text file version of the configuration script
+├── Kaggle_Score_Screenshot.png     # Screenshot of our final leaderboard score (0.71)
+├── Model-pipeline.py               # Full training pipeline script
+├── predict.py                      # Lightweight script to predict on new data
+├── Note_on_Submission.txt          # Notes on different submission files
+├── requirements.txt                # Python dependencies
+├── System Description Paper.pdf    # Technical paper summarizing methodology
 │
-├── model_assets/ # Directory containing all saved model components.
-│ ├── MI_model.pkl # The trained LightGBM model for the MI task.
-│ ├── MI_scaler.pkl # The StandardScaler object for MI features.
-│ ├── MI_selector.pkl # The SelectKBest object for MI feature selection.
-│ ├── MI_label_encoder.pkl # The LabelEncoder for MI classes.
-│ ├── MI_features.json # A list of the final selected feature names for the MI model.
-│ │
-│ ├── SSVEP_model.pkl # The trained LightGBM model for the SSVEP task.
-│ ├── SSVEP_scaler.pkl # The StandardScaler object for SSVEP features.
-│ ├── SSVEP_selector.pkl # The SelectKBest object for SSVEP feature selection.
-│ ├── SSVEP_label_encoder.pkl # The LabelEncoder for SSVEP classes.
-│ └── SSVEP_features.json # A list of the final selected feature names for the SSVEP model.
+├── model_assets/                   # Saved model components
+│   ├── MI_model.pkl
+│   ├── MI_scaler.pkl
+│   ├── MI_selector.pkl
+│   ├── MI_label_encoder.pkl
+│   ├── MI_features.json
+│   ├── SSVEP_model.pkl
+│   ├── SSVEP_scaler.pkl
+│   ├── SSVEP_selector.pkl
+│   ├── SSVEP_label_encoder.pkl
+│   └── SSVEP_features.json
 │
-├── submission_outputs/
-│ ├── Submission.csv # The final submission file that scored 0.71.
-│ └── predictions_with_confidence.csv # A detailed output with prediction confidence scores.
-
-
+├── submission_outputs/             # Submission files
+│   ├── Submission.csv              # Final submission (score: 0.71)
+│   └── predictions_with_confidence.csv  # Output with confidence scores
+</details>
 
 ---
 
