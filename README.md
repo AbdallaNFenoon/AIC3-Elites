@@ -17,7 +17,8 @@ The final, high-scoring model was built by engineering a comprehensive set of ti
 This repository contains all the necessary assets to reproduce our results, from raw data processing to final model inference.
 
 
-<details> <summary>📁 Project Structure</summary>
+<details> 
+```
 ├── AIC3-Notebook.ipynb              # Primary Jupyter Notebook for exploration and development
 ├── Configs.txt                      # Text file version of the configuration script
 ├── Kaggle_Score_Screenshot.png     # Screenshot of our final leaderboard score (0.71)
@@ -42,8 +43,7 @@ This repository contains all the necessary assets to reproduce our results, from
 ├── submission_outputs/             # Submission files
 │   ├── Submission.csv              # Final submission (score: 0.71)
 │   └── predictions_with_confidence.csv  # Output with confidence scores
-</details>
-
+</details> ```
 ---
 
 ## 3. How to Use
