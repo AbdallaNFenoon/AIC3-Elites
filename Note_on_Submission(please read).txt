@@ -1,0 +1,1 @@
+this model with it's assets and predictions has finished training on 1/7/2025 at 3 am, couldn't submit it because it was after the deadline which was 11:59 pm, but after receiving the deadline extension to 3.30 pm i decided to submit it and the screenshot shows you the score which is 0.71139 which puts me on the 6th place in the leaderboard. 
