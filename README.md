@@ -42,7 +42,7 @@ This repository contains all the necessary assets to reproduce our results, from
 ├── submission_outputs/             # Submission files
 │   ├── Submission.csv              # Final submission (score: 0.71)
 │   └── predictions_with_confidence.csv  # Output with confidence scores
-</details> ```
+```
 ---
 
 ## 3. How to Use
