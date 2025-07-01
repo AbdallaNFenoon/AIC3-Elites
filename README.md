@@ -23,7 +23,7 @@ This repository contains all the necessary assets to reproduce our results, from
 ├── Kaggle_Score_Screenshot.png     # Screenshot of our final leaderboard score (0.71)
 ├── Model-pipeline.py               # Full training pipeline script
 ├── predict.py                      # Lightweight script to predict on new data
-├── Note_on_Submission.txt          # Notes on different submission files
+├── Note_on_Submission.txt          # Note on our submission
 ├── requirements.txt                # Python dependencies
 ├── System Description Paper.pdf    # Technical paper summarizing methodology
 │
